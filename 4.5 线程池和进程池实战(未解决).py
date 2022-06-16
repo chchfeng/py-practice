@@ -1,8 +1,6 @@
 # 1. 如何提取单个页面的数据
 # 2. 上线程池，多个页面同时抓取
 import requests
-from lxml import etree
-from concurrent.futures import ThreadPoolExecutor
 import asyncio
 import aiohttp
 import aiofiles
